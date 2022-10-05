@@ -223,7 +223,7 @@ div.blk{
 	.grid-item-4 img{
 		object-fit: cover;
 		vertical-align: middle;
-		max-height: 230px;
+		max-height: 210px;
 		min-width: 100%;
 	}
 
