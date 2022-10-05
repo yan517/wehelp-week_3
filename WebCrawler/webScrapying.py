@@ -1,4 +1,3 @@
-from locale import normalize
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -25,8 +24,7 @@ for i in range(0,10):
 
     link = driver.find_element(By.LINK_TEXT,"‹ 上頁")
     link.click()
-#print(soup.prettify())  #輸出排版後的HTML內容
-driver.close() # 關閉瀏覽器視窗
+driver.close()
 
 
 with open('movie.txt', 'w', encoding='UTF-8') as f:
